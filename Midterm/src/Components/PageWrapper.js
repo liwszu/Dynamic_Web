@@ -9,7 +9,7 @@ export default function PageWrapper({ strCategory, children }) {
           height: "100%",
           backgroundColor: "lightpink"
         }}
-        className="container"
+        className="Page Wrapper"
       >
         {children}
       </div>

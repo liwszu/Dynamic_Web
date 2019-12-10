@@ -23,9 +23,9 @@ class DrinkDetails extends React.Component {
     console.log(this.props);
     return (
       <PageWrapper strCatergory={drink.strCatergory}>
-        <div className="container">
+        <div className="activeDrinkContainer">
           {this.state.activeDrink.length !== 0 && (
-            <div className="activeDrink">
+            <div className="activeDrinkContainer">
               <header className="App-header">
                 <h1
                   className="App-title"
@@ -36,7 +36,7 @@ class DrinkDetails extends React.Component {
               </header>
               <img
                 className="activeDrinkImg"
-                style={{ marginBottom: "2rem", justifyContent: "center" }}
+                // style={{ marginBottom: "2rem", justifyContent: "center" }}
                 src={drink.strDrinkThumb}
                 alt="drink "
               />
