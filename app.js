@@ -1,4 +1,4 @@
-import Reacct from "react"
+import React from "react"
 import React, { useEffect, useState } from 'react';
 import { Route, Router, BrowserRouter as Redirect } from 'reactrouter-dom';
 // import * as firebase from “firebase/app”;
