@@ -1,13 +1,29 @@
 import React from "react";
-import { UserInformation } from "../Components/UserProfileComponents";
+import EditProfile from '../Components/EditProfile'
 
-export default function UserProfile({ user }) {
+export default function UserProfile( {user} ) {
     console.log('user', user);
 
     return (
+        // <EditProfile/>
+        
         <div>
-            <h1>User Profile for {user.uid && user.uid}</h1>
-            <UserInformation email={user.email ? user.email : "whoops"} />
+        {
+            user &&
+            
+                
+                <div>
+                    <h2>{user.displayName}</h2>
+                    <h2>{user.email}</h2>
+                    <img src={user.photoURL}/>
+                </div>
+               
+        }
+        
+        
+            
+              
+            
         </div>
  );
 }
