@@ -1,5 +1,5 @@
 import React from "react";
-import { UserInformation } from "../../Components/UserProfileComponents";
+import { UserInformation } from "../Components/UserProfileComponents";
 
 export default function UserProfile({ user }) {
     console.log('user', user);

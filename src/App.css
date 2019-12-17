@@ -1,22 +1,25 @@
-.App {
-  text-align: center;
+.Header {
+  border-bottom: 1px solid black;
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.Header nav {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+  max-width: 1048px;
+  padding: 10px 25px;
 }
+.Header nav a {
+  color: black;
+  display: inline-block;
+  line-height: 1;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+.authButton{
+  width: 300;
+  border-radius : 2;
+  height: 50;
+  color: pink;
 
-.App-link {
-  color: #09d3ac;
 }
