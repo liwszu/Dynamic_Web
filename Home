@@ -248,26 +248,3 @@ import moment from 'moment'
             )
         }
     }
-
-   
-    // ReactDOM.render(
-    //     <Blog posts={posts} />,
-    //     document.getElementById('root')
-    //   )
-
-    //             <h2>{currUser[0] && currUser[0].displayName}</h2>
-    //             <AddPost postFunction={postFunction} />
-    //             <div >
-    //                 {}
-    //                 {posts[0] && posts.map((posts, i) => 
-    //                 <PostSection user={user[i] && user[i]}  
-    //                 author={posts.user} 
-    //                 title={posts.title} 
-    //                 text={posts.text}  />)}
-    //             </div>
-    //         </div>
-            
-    // }
-
-
-// }
